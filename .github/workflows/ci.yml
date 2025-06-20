@@ -33,17 +33,17 @@ jobs:
     uses: ./.github/workflows/gki-android15-6.6.yml
     secrets: inherit
 
-  run_gkiandroid13515:
-    permissions: write-all
-    needs: check
-    uses: ./.github/workflows/gki-android13-5.15.yml
-    secrets: inherit
+  #run_gkiandroid13515:
+    #permissions: write-all
+    #needs: check
+    #uses: ./.github/workflows/gki-android13-5.15.yml
+    #secrets: inherit
 
-  run_gkiandroid12510:
-    permissions: write-all
-    needs: check
-    uses: ./.github/workflows/gki-android12-5.10.yml
-    secrets: inherit
+  #run_gkiandroid12510:
+    #permissions: write-all
+    #needs: check
+    #uses: ./.github/workflows/gki-android12-5.10.yml
+    #secrets: inherit
 
   run_gkiandroid13510:
     permissions: write-all
